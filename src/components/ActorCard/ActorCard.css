@@ -1,0 +1,8 @@
+.ActorCard {
+    margin: 2px;
+    padding: 10px;
+}
+
+div.ActorCard > Card.Img {
+    cursor: pointer;
+} 

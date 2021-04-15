@@ -1,0 +1,12 @@
+.ActorPage {
+    width: 100%;
+    background-color: antiquewhite;
+    /* background-color: mintcream; */
+}
+#main_cards {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
