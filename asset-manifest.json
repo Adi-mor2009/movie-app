@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.3b1a4e39.chunk.css",
+    "main.js": "/movie-app/static/js/main.5a8b0bae.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.5a8b0bae.chunk.js.map",
+    "runtime-main.js": "/movie-app/static/js/runtime-main.3fecee67.js",
+    "runtime-main.js.map": "/movie-app/static/js/runtime-main.3fecee67.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/movie-app/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8d8adc8a.chunk.js": "/movie-app/static/js/2.8d8adc8a.chunk.js",
+    "static/js/2.8d8adc8a.chunk.js.map": "/movie-app/static/js/2.8d8adc8a.chunk.js.map",
+    "static/js/3.df34ad8d.chunk.js": "/movie-app/static/js/3.df34ad8d.chunk.js",
+    "static/js/3.df34ad8d.chunk.js.map": "/movie-app/static/js/3.df34ad8d.chunk.js.map",
+    "index.html": "/movie-app/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/movie-app/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.3b1a4e39.chunk.css.map": "/movie-app/static/css/main.3b1a4e39.chunk.css.map",
+    "static/js/2.8d8adc8a.chunk.js.LICENSE.txt": "/movie-app/static/js/2.8d8adc8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fecee67.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8d8adc8a.chunk.js",
+    "static/css/main.3b1a4e39.chunk.css",
+    "static/js/main.5a8b0bae.chunk.js"
+  ]
+}
