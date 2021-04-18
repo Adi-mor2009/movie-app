@@ -8,10 +8,10 @@ function Header({filterTextChange, sortByChange, sortOptions}) {
         <div>
             <Form  id="header_form">
                 <Form.Row>
-                    <Col>
+                    <Col className="col-md-6 col-12">
                         <Form.Control type="text" onChange={(e) => filterTextChange(e.target.value)} placeholder="Filter by first and last name" />
                     </Col>
-                    <Col>
+                    <Col className="col-md-6 col-12">
                         <Form.Control as="select" onChange={(e) => sortByChange(e.target.value)}>
                             {sortByOptions}
                         </Form.Control>
