@@ -16,7 +16,7 @@ class ActorModel {
     }
     age() {
         const currentYear = new Date().getFullYear();
-        return currentYear - this.birthday.split("-")[0] - 1;
+        return this.birthday ? currentYear - this.birthday.split("-")[0] - 1 : "";
     }
 }
 

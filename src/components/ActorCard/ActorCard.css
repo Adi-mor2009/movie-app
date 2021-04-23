@@ -1,8 +1,8 @@
-.ActorCard {
+.c-actor {
     margin: 2px;
     padding: 10px;
 }
 
-div.ActorCard > Card.Img {
+div.c-actor > Card.Img {
     cursor: pointer;
 } 

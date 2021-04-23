@@ -12,8 +12,8 @@ function ActorCard({actor}){
         return actor.imdbLink;
     }
     return(
-        <div className="ActorCard">
-            <Card style={{ width: '18rem' }}>
+        <div className="c-actor">
+            <Card style={{ width: '14rem' }}>
                 <Card.Link href={getImdbLink()} target="_blank"><Card.Img variant="top" src={getImg()} /></Card.Link>
                 <Card.Body>
                     <Card.Title>{getActorName()}</Card.Title>
