@@ -31,7 +31,7 @@ function ActorPage() {
       if (newSearchText) {
          // Here we should call TMDB
 
-         const searchURL = "https://api.themoviedb.org/3/search/person?api_key=53d2ee2137cf3228aefae083c8158855&query=" + newSearchText;
+         const searchURL = "https://api.themoviedb.org/3/search/person?api_key=c87aac96194f8ffb8edc34a066fa92de&query=" + newSearchText;
          axios.get(searchURL).then(response => {
             setResults(response.data.results);
          });
@@ -43,7 +43,7 @@ function ActorPage() {
    function addActor(resultIndex) {
       //Get more info of actor
       const actorId = results[resultIndex].id;
-      const getURL = "https://api.themoviedb.org/3/person/" + actorId + "?api_key=53d2ee2137cf3228aefae083c8158855&language=en-US";
+      const getURL = "https://api.themoviedb.org/3/person/" + actorId + "?api_key=c87aac96194f8ffb8edc34a066fa92de&language=en-US";
       let actorToAdd;
       axios.get(getURL).then(response => {
          actorToAdd = response.data;
