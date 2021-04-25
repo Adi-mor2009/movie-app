@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/movie-app/static/css/main.7d0d4018.chunk.css",
-    "main.js": "/movie-app/static/js/main.d2e0f606.chunk.js",
-    "main.js.map": "/movie-app/static/js/main.d2e0f606.chunk.js.map",
-    "runtime-main.js": "/movie-app/static/js/runtime-main.d35baafc.js",
-    "runtime-main.js.map": "/movie-app/static/js/runtime-main.d35baafc.js.map",
+    "main.css": "/movie-app/static/css/main.f7a3c389.chunk.css",
+    "main.js": "/movie-app/static/js/main.79e69638.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.79e69638.chunk.js.map",
+    "runtime-main.js": "/movie-app/static/js/runtime-main.44ac4977.js",
+    "runtime-main.js.map": "/movie-app/static/js/runtime-main.44ac4977.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/movie-app/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b0f6d4cd.chunk.js": "/movie-app/static/js/2.b0f6d4cd.chunk.js",
-    "static/js/2.b0f6d4cd.chunk.js.map": "/movie-app/static/js/2.b0f6d4cd.chunk.js.map",
-    "static/js/3.960ad65c.chunk.js": "/movie-app/static/js/3.960ad65c.chunk.js",
-    "static/js/3.960ad65c.chunk.js.map": "/movie-app/static/js/3.960ad65c.chunk.js.map",
+    "static/js/2.134f9254.chunk.js": "/movie-app/static/js/2.134f9254.chunk.js",
+    "static/js/2.134f9254.chunk.js.map": "/movie-app/static/js/2.134f9254.chunk.js.map",
+    "static/js/3.d278dcb4.chunk.js": "/movie-app/static/js/3.d278dcb4.chunk.js",
+    "static/js/3.d278dcb4.chunk.js.map": "/movie-app/static/js/3.d278dcb4.chunk.js.map",
     "index.html": "/movie-app/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/movie-app/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.7d0d4018.chunk.css.map": "/movie-app/static/css/main.7d0d4018.chunk.css.map",
-    "static/js/2.b0f6d4cd.chunk.js.LICENSE.txt": "/movie-app/static/js/2.b0f6d4cd.chunk.js.LICENSE.txt"
+    "static/css/main.f7a3c389.chunk.css.map": "/movie-app/static/css/main.f7a3c389.chunk.css.map",
+    "static/js/2.134f9254.chunk.js.LICENSE.txt": "/movie-app/static/js/2.134f9254.chunk.js.LICENSE.txt",
+    "static/media/HomePage.css": "/movie-app/static/media/AkayaTelivigala-Regular.ce37233a.ttf",
+    "static/media/ActorPage.css": "/movie-app/static/media/stars2.30064b74.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d35baafc.js",
+    "static/js/runtime-main.44ac4977.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b0f6d4cd.chunk.js",
-    "static/css/main.7d0d4018.chunk.css",
-    "static/js/main.d2e0f606.chunk.js"
+    "static/js/2.134f9254.chunk.js",
+    "static/css/main.f7a3c389.chunk.css",
+    "static/js/main.79e69638.chunk.js"
   ]
 }
