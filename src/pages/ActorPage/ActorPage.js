@@ -3,10 +3,8 @@ import { useState, useEffect } from 'react';
 import { Container, Form, Col, Row, CardDeck } from 'react-bootstrap';
 import ActorCard from '../../components/ActorCard/ActorCard';
 import Header from '../../components/Header/Header';
-import MovieCard from '../../components/Movie/MovieCard';
 import SearchBox from '../../components/SearchBox/SearchBox';
 import ActorModel from '../../model/ActorModel';
-import MovieModel from '../../model/MovieModel';
 import { getData } from '../../shared/ActorsData';
 import './ActorPage.css';
 
@@ -19,9 +17,6 @@ function ActorPage() {
    const [sortBy, setSortBy] = useState(sortOptions[0]);
    const [searchText, setSearchText] = useState("");
    const [results, setResults] = useState([]);
-   const [movies, setMovies] = useState([]);
-   const [searchMovieText, setSearchMovieText] = useState("");
-   const [movieResults, setMovieResults] = useState([]);
 
    function filterTextChange(data) {
       setFilterText(data);
@@ -110,35 +105,6 @@ function ActorPage() {
       return filterArr;
    }
 
-   function handleMovieSearchChange(newSearchText) {
-      setSearchMovieText(newSearchText);
-
-      if (newSearchText) {
-         // Here we should call TMDB
-         const searchURL = "https://api.themoviedb.org/3/search/movie?api_key=c87aac96194f8ffb8edc34a066fa92de&query=" + newSearchText;
-         axios.get(searchURL).then(response => {
-            setMovieResults(response.data.results);
-         });
-      } else {
-         setMovieResults([]);
-      }
-   }
-
-   function addMovie(resultIndex) {
-      //Get more info of actor
-      const movieId = movieResults[resultIndex].id;
-      const getURL = "https://api.themoviedb.org/3/movie/" + movieId + "?api_key=c87aac96194f8ffb8edc34a066fa92de&language=en-US";
-      axios.get(getURL).then(response => {
-         const movieToAdd = response.data;
-         // Adding the movie to the view
-         setMovies(movies.concat(new MovieModel(movieToAdd.title, movieToAdd.runtime, "bla bla", movieToAdd.vote_average, movieToAdd.overview, "https://image.tmdb.org/t/p/w500" + movieToAdd.poster_path, movieToAdd.homepage)));
-
-         // Cleaning up the SearchBox
-         setMovieResults([]);
-         setSearchMovieText("");
-      });
-   }
-
    return (
       <div className="p-actors">
          <Container>
@@ -152,17 +118,6 @@ function ActorPage() {
             <div id="main_cards">
                {sortCardBy(getCardsByFilter())}
             </div>
-         </Container>
-         <Container>
-            <SearchBox
-               placeholder="Search movies..."
-               searchText={searchMovieText}
-               onSearchChange={handleMovieSearchChange}
-               results={movieResults.map(result => result.title)}
-               onResultSelected={addMovie} />
-            <CardDeck>
-               {movies ? movies.map(movie => <MovieCard movie={movie} />) : "Loading ..."}
-            </CardDeck>
          </Container>
       </div>
    )

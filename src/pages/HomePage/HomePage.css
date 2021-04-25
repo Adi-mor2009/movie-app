@@ -1,0 +1,12 @@
+.p-home {
+    background-image: url("https://www.powiatwodzislawski.pl/pliki/2021/02/kino-1.jpg");
+    height: 100vh;
+}
+@font-face {
+    font-family: "p-home-title";
+    src: url("Akaya_Telivigala/AkayaTelivigala-Regular.ttf");
+}
+.p-home h1 {
+    font-family: "p-home-title", cursive;
+    font-size: 8em;
+  }

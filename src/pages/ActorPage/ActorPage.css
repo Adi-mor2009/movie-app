@@ -1,6 +1,7 @@
 .p-actors {
     width: 100%;
-    background-color: antiquewhite;
+    background-image: url("stars2.jpg");
+    /* background-color: antiquewhite; */
     /* background-color: mintcream; */
 }
 #main_cards {
